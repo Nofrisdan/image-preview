@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+.border-img {
+  border: 4px dotted blue;
+  width: 300px;
+  height: 300px;
+  margin-left: 40%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+
+  cursor: pointer;
+}
+
+.border-img img {
+  margin-top: -30px;
+  display: none;
+  position: absolute;
+}
+
+.img-posisi {
+  margin-left: 30px;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+  color: rgb(49, 49, 141);
+  margin-bottom: 10px;
+  animation: upload 1s infinite linear;
+}
+
+.form {
+  width: 300px;
+
+  margin-left: 40%;
+}
+.form input {
+  display: none;
+}
+.form button {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* animation */
+
+@keyframes upload {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
